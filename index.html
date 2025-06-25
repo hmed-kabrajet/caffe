@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>𝙡𝙖 𝙛𝙖𝙡𝙖𝙞𝙨𝙚 𝙢𝙚𝙣𝙪</title>
+    <script>
+      function askFavourite() {
+        let drink = prompt("what's your favorite drink ?");
+        alert("yum! " + drink + " sounds delicious😋");
+      }
+    </script>
+    <!--BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      function placeorder() {
+        let drink = prompt("what would you like to order?");
+        document.getElementById("order-msg").innerText =
+          "order confirmed: " + drink + "✅️";
+      }
+    </script>
+    <center>
+      <p class="mt-5" id="order-msg"></p>
+      <button class="btn btn-primary btn-lg mt-1" onclick="placeorder()">
+        place order</button
+      >
+    </center> 
+    <center>
+      <button class="btn btn-primary btn-lg mt-5" onclick="askFavourite()">
+        tell us your favourite👋
+      </button>
+    </center>
+    <header>
+      <center><h1 class="costome-title">𝓂𝑒𝓃𝓊 𝒸𝒶𝒻𝑒 𝓁𝒶 𝒻𝒶𝓁𝒶𝒾𝓈𝑒</h1></center>
+      <center>
+        <nav>
+          <a href="#les-sucres"> les sucres</a>
+          <a href="#snacks🍔"> snacks🍔</a>
+          <a href="#boissons🍰"> boissons🍰</a>
+          <a href="#plats-principaux">plats principaux</a>
+          <a href="#pizza🍕">pizza🍕</a>
+          <a href="#accompagenments-entrées🍟">accompagenments-entrées🍟</a>
+          <a href="#liste-de-desserts🍰">liste de desserts🍰</a>
+        </nav>
+      </center>
+    </header>
+    <main class="row">
+      <section id="les-sucres" class="cadre col-md-2">
+        <h2>𝓵𝓮𝓼 𝓼𝓾𝓬𝓻𝓮𝓼</h2>
+        <li>crépe au choclate (7 dt)</li>
+        <li>gaufre au choclate🧇 (5 dt)</li>
+        <li>petite gaufre (3 dt)</li>
+        <li>petit déjeuner (30 dt)</li>
+        <li>daughnut🍩(3 dt)</li>
+        <li>capcake🧁(7 dt)</li>
+        <li>glace🍨(3 dt)</li>
+      </section>
+      <section id="snacks🍔" class="cadre col-md-2">
+        <h2>𝓢𝓷𝓪𝓬𝓴𝓼 / 𝓢𝓪𝓷𝓭𝔀𝓲𝓬𝓱𝓼🍔</h2>
+        <li>Sandwich chawarma poulet(6 dt)</li>
+        <li>Sandwich kefta(5.500 dt)</li>
+        <li>Double cheeseburger(8.500 dt)</li>
+        <li>Tacos au poulet(7.500 dt)</li>
+        <li>Sandwich escalopeاسكالوب(6.000 dt)</li>
+        <li>Sandwich thon & œuf تن وبيض(5.500 dt)</li>
+        <li>Sandwich fricasséفريكاسي(3.500 dt)</li>
+        <li>Sandwich américain بطاطا + بيضة + تن(5.000 dt)</li>
+        <li>Sandwich mixte دجاج + لحم + جبن(7.500 dt)</li>
+        <li>Sandwich nuggets(6.500 dt)</li>
+        <li>Burger au poulet croustillant كريسبي(8.000 dt)</li>
+        <li>Hot-dog(5.000 dt)</li>
+        <li>Tacos poulet(7.500 dt)</li>
+        <li>Tacos viande hachée(8.000 dt)</li>
+        <li>Tacos XXL taille grande(11.000 dt)</li>
+        <li>Panini escalope(5.500 dt)</li>
+        <li>Panini au thon(5.500 dt)</li>
+      </section>
+      <section id="boissons🍰" class="cadre col-md-2">
+        <h2>𝓑𝓸𝓲𝓼𝓼𝓸𝓷𝓼🍰</h2>
+        <centre>
+          <li>Jus d’orange frais(4,000 dt)</li>
+          <li>Yaourt maison(2.500 dt)</li>
+          <li>Milkshake(5.500 dt)</li>
+          <li>Café espresso(2.000 dt)</li>
+          <li>Thé vert / noir(1,500 dt)</li>
+        </centre>
+      </section>
+      <section id="plats-principaux" class="cadre col-md-2">
+        <h2>𝓟𝓵𝓪𝓽𝓼 𝓹𝓻𝓲𝓷𝓬𝓲𝓹𝓪𝓾𝔁🍝</h2>
+        <li>Pâtes à la sauce tomate(6.500 dt)</li>
+        <li>Pâtes crème et poulet(8.000 dt)</li>
+        <li>Riz aux légumes et poulet(7,500 dt)</li>
+        <li>Couscous au poulet(9.000d dt)</li>
+        <li>Lablabi pois chiches épicés (4.000 dt)</li>
+        <li>Couscous au poulet كسكسي بالدجاج(9.000 dt)</li>
+        <li>Couscous à la viande كسكسي باللحم(11.000 dt)</li>
+        <li>Riz aux fruits de mer أرز بالبحريات (10.000 dt)</li>
+        <li>Pasta sauce tomate مقرونة عادية(6.000 dt)</li>
+        <li>Pasta escalope crème مقرونة اسكالوب و كريمة(8.000 dt)</li>
+        <li>Pasta fruits de mer(10.500 dt)</li>
+        <li>Lasagnes maison(9.000 dt)</li>
+        <li>Kafteji complet(5.500)</li>
+      </section>
+      <section id="pizza🍕" class="cadre col-md-2">
+        <h2>𝓟𝓲𝔃𝔃𝓪 (𝓽𝓪𝓲𝓵𝓵𝓮 𝓶𝓸𝔂𝓮𝓷𝓷𝓮)🍕</h2>
+        <li>Pizza Margherita(8.000 dt)</li>
+        <li>Pizza au thon(9.000 dt)</li>
+        <li>Pizza au poulet(10.000 dt)</li>
+        <li>Pizza quatre fromages(11.000 dt)</li>
+        <li>Pizza mixte (12.500 dt)</li>
+      </section>
+      <section id="accompagenments-entrées🍟" class="cadre col-md-1">
+        <h2>𝓐𝓬𝓬𝓸𝓶𝓹𝓪𝓰𝓷𝓮𝓶𝓮𝓷𝓽𝓼 / 𝓔𝓷𝓽𝓻é𝓮𝓼🍟</h2>
+        <li>Frites(3.000 dt)</li>
+        <li>Frites au fromage(4.000 dt)</li>
+        <li>Salade grillée (3.500 dt)</li>
+        <li>Salade tunisienne(3.000 dt)</li>
+        <li>Assortiment de mezzés(5.500 dt)</li>
+      </section>
+      <section id="liste-de-desserts🍰" class="cadre col-md-1">
+        <h2>𝓵𝓲𝓼𝓽𝓮 𝓭𝓮 𝓓𝓮𝓼𝓼𝓮𝓻𝓽𝓼🍰</h2>
+        <li>كيك الشوكولاتة Gâteau chocolat(4.500 dt)</li>
+        <li>كيك الفراولة Gâteau fraise(5.000 dt)</li>
+        <li>كريب نوتيلا Crêpe Nutella(5.000 dt)</li>
+        <li>كريب بالموز والنوتيلا(6.000 dt)</li>
+        <li>وافل شوكولا(6.500 dt)</li>
+        <li>تارت فواكه Tarte aux fruits(5.500 dt)</li>
+        <li>موس شوكولاتة Mousse au chocolat(4.000 dt)</li>
+        <li>كريم كراميل Crème caramel(3.500 dt)</li>
+        <li>مافن muffin(3.000 dt)</li>
+        <li>بان كيك مع عسل أو شوكولا(5.500 dt)</li>
+        <li>كسكروت غلال Fruit mix cup(4.500 dt)</li>
+        <li>ياغورت دار Yaourt maison(2.500 dt)</li>
+        <li>عصير طبيعي Jus frais(4.000 dt)</li>
+        <li>كيك الفانيليا Gâteau à la vanille(4.500 dt)</li>
+        <li>كيك الليمون Gâteau au citron(4.500 dt)</li>
+        <li>تيراميسو Tiramisu(6.000 dt)</li>
+        <li>بان كيك بالعسل أو النوتيلا(5.000 dt)</li>
+        <li>وافل بلجيكي Waffle(6.000 dt)</li>
+        <li>دونات محشو Donuts(3.000/2.500 dt)</li>
+        <li>بودينغ الفانيليا(3.500 dt)</li>
+        <li>كاساتا Cassata(5.000 dt)</li>
+        <li>بقلاوة تونسية(3.000 dt/100g)</li>
+        <li>جيلاتي Glace 2 boules(4.000/3.500 dt)</li>
+      </section>
+    </main>
+    <p>𝒽𝒶𝓋𝑒 𝒶 𝓃𝒾𝒸𝑒 𝒹𝒶𝓎😁 📞20014394📞</p>
+  </body>
+</html>
